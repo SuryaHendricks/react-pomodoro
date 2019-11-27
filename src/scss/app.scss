@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(48, 1, 1);
+    color: white;
+
+    main {
+        display: flex;
+        flex-direction: column;
+        height: 90vh;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            font-size: 4rem;
+            font-weight: 500;
+            color: white;
+        }
+
+        .interval-container {
+            display: flex;
+            margin: 0 40px;
+            align-items: center;
+        }
+
+        .interval-length-container {
+            display: flex;
+        }
+
+        .interval-length {
+            font-size: 2rem;
+            margin: 0 10px;
+        }
+
+        .timer-container {
+            border: 2px solid black;
+            background-color: rgb(204, 189, 189);
+            margin-top: 40px;
+            border-radius: 25px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 5px 5px 5px black;
+            padding: 10px;
+            color: rgb(51, 0, 0);
+
+            .timer {
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
+button {
+
+    margin: 0 10px;
+    height: 25px;
+    background-color: rgb(97, 8, 8);
+    border: none;
+    cursor: pointer;
+    color: #eee;
+    width: 70px;
+    border-radius: 7px;
+    border: 2px solid rgb(255, 254, 254);
+    align-items: center;
+}
+
+button:hover {
+    border: 2px solid rgb(2, 2, 2);
+    color: rgb(11, 49, 1);
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+
+h4 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.timer-actions {
+    margin-top: 20px;
+    text-align: center;
+}
