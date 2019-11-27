@@ -2,9 +2,10 @@ import React from 'react';
 
 function BreakInterval(props) {
     function decreaseCounter() {
-        if (props.BreakInterval === 1) {
+        if (props.breakInterval === 1) {
             return;
         }
+        props.decreaseBreak();
     }
 
     function increaseCounter() {
