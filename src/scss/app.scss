@@ -55,6 +55,7 @@ button {
     background-color: rgb(97, 8, 8);
     border: none;
     cursor: pointer;
+    pointer-events: auto;
     color: #eee;
     width: 70px;
     border-radius: 7px;
@@ -82,4 +83,8 @@ h4 {
 .timer-actions {
     margin-top: 20px;
     text-align: center;
+}
+
+button:disabled {
+    cursor: not-allowed;
 }
