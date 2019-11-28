@@ -94,7 +94,8 @@ class App extends React.Component {
 
         return (
             <main>
-                <h2>Finest quality Pomodoro</h2>
+                <h2><span id="finest">Finest </span>quality <span id="pomo">Pomodoro</span> !</h2>
+                <img src="https://media.giphy.com/media/h8D41N51028UgwcGKQ/giphy.gif" alt="italian" />
                 <section className="interval-length-container">
                     <BreakInterval
                         isPlay={this.state.isPlay}
