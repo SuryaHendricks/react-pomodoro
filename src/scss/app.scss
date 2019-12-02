@@ -7,15 +7,16 @@ body {
     main {
         display: flex;
         flex-direction: column;
-        height: 90vh;
+        height: 100%;
         justify-content: center;
         align-items: center;
 
         h2 {
-            font-size: 4rem;
+            font-size: 5rem;
             font-weight: 500;
             color: white;
             font-family: 'Pacifico', cursive;
+            margin-bottom: 20px;
 
 
             #pomo {
@@ -29,7 +30,7 @@ body {
 
         .interval-container {
             display: flex;
-            margin: 0 40px;
+            margin: 0 4rem;
             align-items: center;
         }
 
@@ -79,6 +80,7 @@ button {
     pointer-events: auto;
     color: #eee;
     width: 70px;
+    height: 30px;
     border-radius: 7px;
     border: 2px solid rgb(255, 254, 254);
     align-items: center;

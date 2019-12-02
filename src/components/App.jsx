@@ -93,6 +93,7 @@ class App extends React.Component {
     render() {
 
         return (
+
             <main>
                 <h2><span id="finest">Finest </span>quality <span id="pomo">Pomodoro</span> !</h2>
                 <img src="https://media.giphy.com/media/h8D41N51028UgwcGKQ/giphy.gif" alt="italian" />
