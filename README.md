@@ -9,7 +9,7 @@ Pomodoro timer
 
 Technologies
 ----
-*React*, *Babel*, *Html*, 
+*React*, *Babel*, *Html*, *SASS*
 
 What can you do ?
 ----
@@ -24,3 +24,6 @@ Project demo
 
 Screenshots
 ----
+
+![pomo](https://user-images.githubusercontent.com/54063721/72359303-55556e80-36ee-11ea-8cc9-2bc6e1c460ea.png)
+
