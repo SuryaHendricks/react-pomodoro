@@ -17,6 +17,12 @@ What can you do ?
 * Set pause timer
 * Start, pause, reset
 
+How to run the project
+----
+
+* npm install
+* npm start
+
 Project demo 
 ----
 
